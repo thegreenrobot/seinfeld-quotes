@@ -1,0 +1,37 @@
+{
+  "name": "seinfeld-quotes",
+  "version": "1.0.0",
+  "description": "Random quotes from the Seinfeld television show",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thegreenrobot/seinfeld-quotes.git"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "quotes.json"
+  ],
+  "keywords": [
+    "seinfeld",
+    "quotes",
+    "random"
+  ],
+  "author": "Matthew Green",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thegreenrobot/seinfeld-quotes/issues"
+  },
+  "homepage": "https://github.com/thegreenrobot/seinfeld-quotes#readme",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "xo": "^0.17.1"
+  },
+  "dependencies": {
+    "meow": "^3.7.0",
+    "unique-random-array": "^1.0.0"
+  }
+}
