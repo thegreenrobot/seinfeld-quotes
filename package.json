@@ -1,6 +1,6 @@
 {
   "name": "seinfeld-quotes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Random quotes from the Seinfeld television show",
   "main": "index.js",
   "scripts": {
