@@ -1,10 +1,10 @@
 {
   "name": "seinfeld-quotes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Random quotes from the Seinfeld television show",
   "main": "index.js",
   "scripts": {
-    "test": "xo && ava --verbose"
+    "test": "ava --verbose"
   },
   "repository": {
     "type": "git",
@@ -27,10 +27,8 @@
   },
   "homepage": "https://github.com/thegreenrobot/seinfeld-quotes#readme",
   "devDependencies": {
-    "ava": "^0.17.0",
-    "xo": "^0.17.1",
-    "dot-prop": "^4.2.1",
-    "eslint": "^4.18.2"
+    "ava": "0.17.0",
+    "dot-prop": "^4.2.1"
   },
   "dependencies": {
     "meow": "^3.7.0",

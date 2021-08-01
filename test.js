@@ -1,5 +1,5 @@
 import test from 'ava';
-import getQuote from './';
+import getQuote from './index.js';
 
 const quotes = require('./quotes.json');
 

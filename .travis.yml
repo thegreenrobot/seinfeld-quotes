@@ -1,4 +1,6 @@
-sudo: false
+os:
+  - linux
+dist: xenial
 language: node_js
 node_js:
-  - 'stable'
+  - 'v14.17.4'
